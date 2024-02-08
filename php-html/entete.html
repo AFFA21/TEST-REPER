@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            display: flex; /* Utilisez Flexbox */
+            justify-content: center; /* Centre les éléments horizontalement */
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            color: white;
+            text-align: center;
+            padding: 14px 30px;
+            text-decoration: none;
+        }
+        li a1 {
+            color: rgb(255, 255, 255);
+            text-align: start;
+            padding: 14px 20px;
+            text-decoration: none;
+            background-color: rgba(203, 203, 203, 0.42);
+
+        }
+
+        li .active {
+            background-color: #04AA6D;
+            padding: 14px 50px;
+        }
+
+    </style>
+</head>
+
+<ul>
+    <form method="post" action="Search.php">
+        <li><a class="active" href="<?="home-menu.php"?>">Home</a></li>
+        <li><a </a></li>
+        <li><input type="text" id="name" name="name" required ></li>
+        <li><a1 <input type="text" id="name" name="name" required><button type="submit">RECHERCHER</button></a1></li>
+    </form>
+</ul>
+
+
+
+
+
